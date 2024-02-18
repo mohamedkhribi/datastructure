@@ -1,0 +1,82 @@
+PROCEDURE dot-prodect(x)
+VAR
+    v1 : ARRAY_OF type[30];
+    v2 : ARRAY_OF type[30];
+    x INTEGER
+BEGIN
+
+    for i=0 from 1 to length(v1)
+    FOR j=0 from to length(v2) DO
+
+        x = x + v1[i] * v2[j]
+    end for
+END
+ALGORITHM orthognal
+VAR
+    v1
+    v2
+    dot
+BEGIN
+FOR i=0 i<lenth v1 i++ 
+for j=0 j<lenth v2 j++
+
+ DO
+ if dot-prodect(x)=0
+ v1 et v2 sont orthogonale
+ else  return false
+    
+END_FOR
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+[3,5,2,7]
+i=0 
+j=1   3<5 faux ->3>2 donc
+x=3 
+tab(0)=tab(2)
+tab(2)=3
+
+
+
+
+
+ALGORITHM trie
+
+VAR
+
+tab: ARRAY_Of INTEGER[100];
+x :INTEGER
+BEGIN
+    read (tab)
+    FOR i=0 i<length tab i++
+    for j=i+1 j<length tab j++
+    IF (tab[i]>tab[j]) THEN
+        x=tab[i]
+        tab[i]=tab[j]
+        tab[j]=x
+    
+    END_IF
+    write (tab[i])
+     DO
+
+    
+    END_FOR
+END
+
+
+
+
+
+
+End.
